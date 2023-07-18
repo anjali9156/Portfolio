@@ -1,6 +1,6 @@
 # Portfolio
 
-Welcome to my personal portfolio repository! This project showcases my skills, projects, and achievements in the field of [Data Analyst]. The portfolio website provides an interactive and visually appealing platform to present my work and connect with potential collaborators and employers.
+Welcome to my personal portfolio repository! This project showcases my skills, projects, and achievements in the field of Data Analytics. The portfolio website provides an interactive and visually appealing platform to present my work and connect with potential collaborators and employers.
 
 ## Table of Contents
 - [Introduction](#introduction)
@@ -13,7 +13,7 @@ Welcome to my personal portfolio repository! This project showcases my skills, p
 - [License](#license)
 
 ## Introduction
-As a [Data Analyst], I have created this portfolio website to highlight my expertise, projects, and accomplishments. The website provides an overview of my skills, showcases my past projects, and allows visitors to learn more about me and my work.
+As a Data Analyst, I have created this portfolio website to highlight my expertise, projects, and accomplishments. The website provides an overview of my skills, showcases my past projects, and allows visitors to learn more about me and my work.
 
 The portfolio is designed to have an intuitive and visually appealing interface, making it easy for visitors to navigate and explore the content. It provides a comprehensive view of my capabilities, including my technical skills, professional experience, and educational background.
 
