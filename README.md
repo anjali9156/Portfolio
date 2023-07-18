@@ -55,7 +55,7 @@ Contributions to this project are welcome! If you have suggestions for improveme
 ## Contact
 If you have any questions, suggestions, or opportunities for collaboration, please feel free to reach out:
 
-- Name: Anjali(#anjali)
+- Name: [Anjali](https://github.com/anjali9156)
 - Email: anjaliduhan06@gmail.com
 - LinkedIn: www.linkedin.com/in/anjaliduhan
 - Website: https://anjali9156.github.io/Portfolio/
