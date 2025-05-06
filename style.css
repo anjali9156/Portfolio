@@ -989,8 +989,8 @@ main.row2{
 	/* End header */
 
 	#services .service-bottom .service-item {
-		flex-basis: 22%;
-		margin: 1.2%;
+		flex-basis: 50%;
+		margin: 1.5%;
 	}
 
 	
