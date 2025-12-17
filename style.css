@@ -471,7 +471,6 @@ main.row2{
 }
 
 #services .services {
-  flex-direction: column;
   text-align: center;
   max-width: 1500px;
   margin: 0 auto;
@@ -493,11 +492,11 @@ main.row2{
 }
 
 #services .service-item {
-  flex: 1 1 calc(25% - 25px); /* Allows items to take up equal space and be responsive */
+  flex: 1; /* Allows items to take up equal space and be responsive */
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  flex-direction: row;
+  flex-direction: column;
   padding: 25px;
   border-radius: 12px;
   background-image: url(loan1.avif);
@@ -524,7 +523,7 @@ main.row2{
   height: 100%;
   width: 100%;
   background-image: linear-gradient(60deg, #29323c 0%, #3a4142 100%);
-  opacity: 0.92;
+  opacity: 0.9;
   z-index: -1;
 }
 
@@ -557,13 +556,13 @@ main.row2{
   font-size: 1.4rem;
   color: white;
   margin-bottom: 10px;
-  text-align: left;
+  text-align: center;
   text-transform: uppercase;
 }
 
 #services .service-item p {
   color: white;
-  text-align: left;
+  text-align: center;
   line-height: 1.4rem;
   font-size: 0.95rem;
 }
@@ -1006,9 +1005,20 @@ main.row2{
 		text-align: left;
 	}
 }
-@media (max-width: 1024px) {
+@media (max-width: 992px) {
+  #services .service-bottom {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
   #services .service-item {
-    flex: 1 1 calc(50% - 25px);
+    flex: 1 1 calc(50% - 20px);
+  }
+}
+
+/* Responsive: 1 per row */
+@media (max-width: 600px) {
+  #services .service-item {
+    flex: 1 1 100%;
   }
 }
 /* Media Query For Desktop */
@@ -1071,4 +1081,5 @@ main.row2{
         padding: 0;
     }
 }
+
 
