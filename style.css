@@ -958,7 +958,6 @@ main.row2{
 
 	/* Services Section */
 	#services .service-item {
-    flex: 1 1 100%;
     flex-direction: column;
     text-align: center;
     align-items: center;
@@ -1081,5 +1080,6 @@ main.row2{
         padding: 0;
     }
 }
+
 
 
