@@ -647,7 +647,7 @@ main.row2{
 	width: 100%;
 }
 #about .col-right h1{
-	font-size: 7rem;
+	font-size: 10rem;
 }
 #about .col-right h2 {
 	font-size: 2.2rem;
@@ -659,7 +659,7 @@ main.row2{
 #about .col-right p {
 	margin-bottom: 20px;
 	color: white;
-	font-size: 1.5rem;
+	font-size: 5rem;
 }
 #about .col-right .cta {
 	color: white;
@@ -1049,6 +1049,7 @@ main.row2{
         padding: 0;
     }
 }
+
 
 
 
