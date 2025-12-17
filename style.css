@@ -484,25 +484,26 @@ main.row2{
 
 #services .service-bottom {
   display: flex;
-  align-items: flex-start;
+  align-items: stretch;
   justify-content: space-between;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   gap: 25px;
   margin-top: 50px;
 }
 
 #services .service-item {
-  flex: 1; /* Allows items to take up equal space and be responsive */
+  flex: 1 1 25%;
+  max-width: 25%;/* Allows items to take up equal space and be responsive */
   display: flex;
-  align-items: center;
   justify-content: flex-start;
-  flex-direction: column;
-  padding: 25px;
+  padding: 35px 20px;
   border-radius: 12px;
+  min-height: 340px;
+  position: relative;
+  overflow: hidden;
   background-image: url(loan1.avif);
   background-size: cover;
   background-position: center;
-  min-height: 180px;
   position: relative;
   z-index: 1;
   overflow: hidden;
@@ -510,8 +511,8 @@ main.row2{
 
 #services .service-item:hover {
   transform: translateY(-4px);
-  transition: 0.3s;
-  box-shadow: 0px 4px 15px rgba(88, 225, 243, 0.4);
+  transition: 0.3s ease;
+  box-shadow: 0px 4px 14px rgba(88, 225, 243, 0.4);
 }
 
 #services .service-item::after {
@@ -527,16 +528,11 @@ main.row2{
   z-index: -1;
 }
 
-#services .service-bottom .icon {
-  height: 80px;
-  width: 80px;
-  margin-bottom: 20px;
-}
 /* ICON */
 #services .service-bottom .icon {
-  width: 70px;
-  height: 70px;
-  margin-right: 20px;   /* Spacing between icon & text */
+  width: 85px;
+  height: 85px;
+  margin: 0 auto 18px auto; /* Spacing between icon & text */
   flex-shrink: 0;
 }
 
@@ -553,9 +549,9 @@ main.row2{
 }
 
 #services .service-item h2 {
-  font-size: 1.4rem;
+  font-size: 1.3rem;
   color: white;
-  margin-bottom: 10px;
+  margin-bottom: 12px;
   text-align: center;
   text-transform: uppercase;
 }
@@ -564,7 +560,8 @@ main.row2{
   color: white;
   text-align: center;
   line-height: 1.4rem;
-  font-size: 0.95rem;
+  font-size: 0.9rem;
+  max-width: 95%;
 }
 
 /* Projects section */
@@ -1007,17 +1004,18 @@ main.row2{
 @media (max-width: 992px) {
   #services .service-bottom {
     flex-wrap: wrap;
-    justify-content: center;
   }
   #services .service-item {
     flex: 1 1 calc(50% - 20px);
+    max-width: calc(50% - 20px);
   }
 }
 
-/* Responsive: 1 per row */
+/* 1 per row for mobile */
 @media (max-width: 600px) {
   #services .service-item {
     flex: 1 1 100%;
+    max-width: 100%;
   }
 }
 /* Media Query For Desktop */
@@ -1080,6 +1078,7 @@ main.row2{
         padding: 0;
     }
 }
+
 
 
 
