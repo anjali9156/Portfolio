@@ -467,7 +467,7 @@ main.row2{
 /* Services Section */
 #services {
   background-color: rgb(12, 12, 27); 
-  padding: 20px 0; /* Adding some padding for better spacing */
+  padding: 60px 0; /* Adding some padding for better spacing */
 }
 
 #services .services {
@@ -1050,6 +1050,7 @@ main.row2{
         padding: 0;
     }
 }
+
 
 
 
