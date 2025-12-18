@@ -467,11 +467,10 @@ main.row2{
 /* Services Section */
 #services {
   background-color: rgb(12, 12, 27); 
-  padding: 20px 0; /* Adding some padding for better spacing */
+  padding: 60px 0; /* Adding some padding for better spacing */
 }
 
 #services .services {
-  flex-direction: column;
   text-align: center;
   max-width: 1500px;
   margin: 0 auto;
@@ -482,20 +481,24 @@ main.row2{
   max-width: 500px;
   margin: 0 auto;
 }
-
+/* MAIN GRID — 4 CARDS IN ONE ROW */
 #services .service-bottom {
   display: flex;
-  align-items: flex-start;
-  justify-content: center;
+  align-items: stretch;
+  justify-content: space-between;
   flex-wrap: wrap;
+  gap: 25px;
   margin-top: 50px;
 }
 
+/* SERVICE BOX */
 #services .service-item {
-  flex: 1 1 25%;/* Allows items to take up equal space and be responsive */
+  flex: 1 1 calc(25% - 25px);     /* 4 PER ROW */
+  max-width: calc(25% - 25px);    /* Equal width */
+  min-height: 340px;              /* SAME HEIGHT FOR ALL */
   display: flex; 
-  align-items: flex-start;
-  justify-content: center;
+  align-items: center;
+  justify-content: flex-start;
   flex-direction: column;
   padding: 30px;
   border-radius: 10px;
@@ -505,10 +508,7 @@ main.row2{
   background-image: url(loan1.avif);
   background-size: cover;
   background-position: center;
-  position: relative;
   z-index: 1;
-  overflow: hidden;
-  max-width: 300px; /* Setting max-width for uniformity */
 }
 
 #services .service-item:hover {
@@ -1049,6 +1049,7 @@ main.row2{
         padding: 0;
     }
 }
+
 
 
 
