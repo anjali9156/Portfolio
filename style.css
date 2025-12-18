@@ -521,7 +521,7 @@ main.row2{
 
 #services .service-item::after {
   content: '';
-  position: absolute;
+  position: relative;
   cursor: pointer;
   left: 0;
   top: 0;
@@ -557,14 +557,14 @@ main.row2{
   color: white;
   margin-bottom: 10px;
   text-align: center;
-  text-transform: uppercase;
+  text-transform: capitalize;
 }
 
 #services .service-item p {
   color: white;
   text-align: center;
-  line-height: 1.4rem;
-  font-size: 0.9rem;
+  line-height: 2rem;
+  font-size: 1.5rem;
   max-width: 95%;
 }
 
@@ -1050,6 +1050,7 @@ main.row2{
         padding: 0;
     }
 }
+
 
 
 
