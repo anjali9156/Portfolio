@@ -467,7 +467,7 @@ main.row2{
 /* Services Section */
 #services {
   background-color: rgb(12, 12, 27); 
-  padding: 60px 0; /* Adding some padding for better spacing */
+  padding: 20px 0; /* Adding some padding for better spacing */
 }
 
 #services .services {
@@ -485,7 +485,7 @@ main.row2{
 #services .service-bottom {
   display: flex;
   align-items: stretch;
-  justify-content: space-between;
+  justify-content: center;
   flex-wrap: wrap;
   gap: 25px;
   margin-top: 50px;
@@ -498,7 +498,7 @@ main.row2{
   min-height: 340px;              /* SAME HEIGHT FOR ALL */
   display: flex; 
   align-items: center;
-  justify-content: flex-start;
+  justify-content: center;
   flex-direction: column;
   padding: 30px;
   border-radius: 10px;
@@ -1049,6 +1049,7 @@ main.row2{
         padding: 0;
     }
 }
+
 
 
 
