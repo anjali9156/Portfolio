@@ -521,7 +521,7 @@ main.row2{
 
 #services .service-item::after {
   content: '';
-  position: relative;
+  position: absolute;
   cursor: pointer;
   left: 0;
   top: 0;
@@ -1050,6 +1050,7 @@ main.row2{
         padding: 0;
     }
 }
+
 
 
 
