@@ -734,7 +734,7 @@ main.row2{
 .contactMe{
 	background-color:rgb(12, 12, 27);
     width: 100%;
-    padding: 100px 50px;
+    padding: 100px 30px;
     color: white;
 	/* CENTER THE WHOLE SECTION */
     display: flex;
@@ -1090,6 +1090,7 @@ main.row2{
         padding: 0;
     }
 }
+
 
 
 
