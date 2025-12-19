@@ -1005,13 +1005,40 @@ main.row2{
 		font-size: 7rem;
 	}
 
-	/* Services Section */
+	/* Services Section 
 	#services .service-item {
     flex-direction: column;
     text-align: center;
     align-items: center;
   	}
-
+	*/
+    #services .service-bottom {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 35px; /* more spacing between cards */
+    }
+    #services .service-item {
+    flex: none !important;
+    max-width: 95% !important;   /* full width card */
+    width: 95% !important;
+    min-height: auto;
+    padding: 40px 25px;
+    }
+    #services .service-item h2 {
+    font-size: 1.8rem;
+    text-align: center;
+    }
+    #services .service-item p {
+    font-size: 1.4rem;
+    text-align: center;
+    line-height: 2.2rem;
+    }
+    #services .service-bottom .icon {
+    width: 70px;
+    height: 70px;
+    margin-bottom: 20px;
+    }
 	
 	/* About */
 	#about .about {
@@ -1090,6 +1117,7 @@ main.row2{
         padding: 0;
     }
 }
+
 
 
 
