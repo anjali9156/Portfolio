@@ -1062,6 +1062,42 @@ main.row2{
     width: 70px !important;
     height: 70px !important;
   }
+  .work-list3 {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    gap: 25px !important;
+  }
+
+  .work3 {
+    width: 90% !important;
+    max-width: 90% !important;
+    flex: none !important;
+    min-height: 300px !important;
+  }
+
+  .work3 img {
+    height: 100% !important;
+    object-fit: cover !important;
+  }
+
+  .layer3 h3 {
+    font-size: 1.5rem !important;
+    padding: 0 10px !important;
+  }
+
+  .layer3 p {
+    font-size: 1.25rem !important;
+    padding: 0 15px !important;
+    line-height: 1.8rem !important;
+  }
+
+  .layer3 a {
+    width: 55px !important;
+    height: 55px !important;
+    font-size: 1.4rem !important;
+    line-height: 55px !important;
+  }
 }
 
 /* Media Query For Desktop */
@@ -1116,6 +1152,7 @@ main.row2{
         padding: 0;
     }
 }
+
 
 
 
