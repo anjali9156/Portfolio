@@ -1036,6 +1036,33 @@ main.row2{
 		text-align: left;
 	}
 }
+/* STRICT MOBILE FIX — ONLY for screens below 600px */
+@media screen and (max-width: 600px) {
+
+  #services .service-bottom {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    gap: 25px !important;
+  }
+
+  #services .service-item {
+    width: 90% !important;
+    max-width: 90% !important;
+    flex: none !important;
+    padding: 35px 25px !important;
+  }
+
+  #services .service-item h2,
+  #services .service-item p {
+    text-align: center !important;
+  }
+
+  #services .icon {
+    width: 70px !important;
+    height: 70px !important;
+  }
+}
 
 /* Media Query For Desktop */
 @media only screen and (min-width: 1200px) {
@@ -1089,6 +1116,7 @@ main.row2{
         padding: 0;
     }
 }
+
 
 
 
