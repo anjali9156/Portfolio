@@ -733,10 +733,13 @@ main.row2{
 /* contact Section */
 .contactMe{
 	background-color:rgb(12, 12, 27);
-    position: relative;
     width: 100%;
-    padding: 40px 100px;
+    padding: 80px 20px;
     color: white;
+	/* CENTER THE WHOLE SECTION */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .contactMe .title{
     display: flex;
@@ -1087,6 +1090,7 @@ main.row2{
         padding: 0;
     }
 }
+
 
 
 
