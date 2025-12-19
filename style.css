@@ -494,7 +494,7 @@ main.row2{
 
 /* SERVICE BOX */
 #services .service-item {
-  flex: 1 1 calc(25% - 25px);     /* 4 PER ROW */
+  flex: 1 1 calc(20% - 20px);     /* 4 PER ROW */
   max-width: calc(25% - 25px);    /* Equal width */
   min-height: 340px;              /* SAME HEIGHT FOR ALL */
   display: flex; 
@@ -1050,6 +1050,7 @@ main.row2{
         padding: 0;
     }
 }
+
 
 
 
